@@ -4,26 +4,22 @@ public class Estandar implements TipoConduccion {
 
     @Override
     public Double consumo() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'consumo'");
+        return 10.0;
     }
 
     @Override
     public Double velocidadMaxima() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'velocidadMaxima'");
+        return 150.0;
     }
 
     @Override
     public TipoConduccion siguiente() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'siguiente'");
+        return new Deportiva();
     }
 
     @Override
     public TipoConduccion anterior() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'anterior'");
+        return new Ecologico();
     }
 
 }
